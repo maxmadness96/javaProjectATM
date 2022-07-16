@@ -1,0 +1,18 @@
+START
+create a file and class for each page of the ATM
+IMPORT java Swing
+IMPORT java awt
+    Create text labels and input fields  to gather user input for card # and Pin #
+    IF card # and Pin # match
+        accept an input from the user as to what they would like to do next
+        WHILE LOOP user choice != exit
+            execute whichever command the user requests
+        ELSE
+            EXIT
+        END LOOP
+    ELSE
+        OUTPUT 'Pin or Card # invalid. Try again.'
+    END IF
+
+
+END
